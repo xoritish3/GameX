@@ -1,12 +1,62 @@
-<!DOCTYPE html>
-<html>
+ <!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>My Acode Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game X Store</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello from GameX!</h1>
-  <p>This best games Website create by xoritsh.</p>
-  <script src="script.js"></script>
+
+  <header class="topbar">
+    <input type="text" placeholder="Search games..." class="search-bar">
+    <span class="bell">🔔</span>
+  </header>
+
+  <nav class="tabs">
+    <span class="active">Discover</span>
+    <span>Top charts</span>
+    <span>Calendar</span>
+    <span>Gamelist</span>
+  </nav>
+
+  <div class="filters">
+    <button>For you</button>
+    <button>Editors' choice</button>
+    <button>Arcade</button>
+    <button>Strategy</button>
+    <button>Casual</button>
+  </div>
+
+  <section class="game-list">
+    <div class="game">
+      <img src="img/ limbo.png" alt="Earthquake Game">
+      <div class="info">
+        <h3>Survivor’s Guilt: Earthquake</h3>
+        <p class="meta">★ 3.8 • Adventure • Android</p>
+        <p class="desc">A realistic, indie survival game about cooperation and resource management.</p>
+        <button class="download-btn">Download</button>
+      </div>
+    </div>
+
+    <div class="game">
+      <img src="pripyat.jpg" alt="Heart of Pripyat">
+      <div class="info">
+        <h3>T.D.Z.4 Heart of Pripyat</h3>
+        <p class="meta">★ 6.8 • Action • Android</p>
+        <p class="desc">Fight for survival in a post-apocalyptic zone full of danger and mystery.</p>
+        <button class="download-btn">Download</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bottom-nav">
+    <div>Games</div>
+    <div>Play</div>
+    <div class="center">⚡</div>
+    <div>Tavern</div>
+    <div>Me</div>
+  </footer>
+
 </body>
-</html
+</html>
